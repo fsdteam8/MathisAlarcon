@@ -68,13 +68,13 @@ export function Section3() {
         />
       </div>
 
-      <div className="absolute -mt-[600px] ml-30 block md:hidden">
+      <div className="absolute -mt-[550px] ml-30 block md:hidden">
         <Image
           src="/Vector15.png"
           alt="Face 3"
           width={300}
           height={300}
-          className="w-[300px] h-[650px] sm:w-2/3 md:w-full"
+          className="w-[300px] h-[600px] sm:w-2/3 md:w-full"
         />
       </div>
 

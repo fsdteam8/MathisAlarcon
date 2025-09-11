@@ -16,6 +16,7 @@ export default function Section1() {
           fill
           className="h-[450px] w-[600px] "
           priority
+          quality={100}
         />
       </div>
 

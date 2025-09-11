@@ -60,7 +60,7 @@ export function Section2() {
             />
           </div>
           {/* Background Vector */}
-          <div className="absolute top-[380px] mr-64 flex md:hidden">
+          <div className="absolute top-[390px] mr-64 flex md:hidden">
             <Image
               src="/Vector6.png"
               alt="Image Section 2"
@@ -70,7 +70,7 @@ export function Section2() {
             />
           </div>
           {/* Background Vector */}
-          <div className="absolute top-[580px] mr-8 ml-4 -mt-1 block md:hidden">
+          <div className="absolute top-[590px] mr-8 ml-2 -mt-2 block md:hidden">
             <Image
               src="/Vector10.png"
               alt="Image Section 2"
