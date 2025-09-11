@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export function Section5() {
   return (
     <div className="w-full relative mt-26 px-4 sm:px-16 md:px-26">
@@ -16,26 +18,35 @@ export function Section5() {
         où le temps semble suspendu. Un lieu pour les amateurs de caractère, de
         singularité et d’authenticité.
       </p>
- 
+
       {/* Mobile & Tablet Layout */}
       <div className="flex flex-col items-center gap-6 sm:gap-10 md:hidden my-20 mb-[750px] relative">
         <div className="w-[250px] h-[300px] rounded-full overflow-hidden flex items-center justify-center absolute -mr-24">
-          <img
+          <Image
             src="/img_s5_3.png"
+            alt="This is S5_3"
+            width={200}
+            height={200}
             className="w-full h-full object-cover rounded-full"
           />
         </div>
 
         <div className="w-[300px] h-[220px] rounded-full overflow-hidden flex items-center justify-center mt-66 absolute z-10 mr-20 ">
-          <img
+          <Image
             src="/img_s5_2.png"
+            alt="This is s5_2"
+            width={200}
+            height={200}
             className="w-full h-full object-cover rounded-full"
           />
         </div>
 
         <div className="w-[250px] h-[250px] rounded-full overflow-hidden flex items-center justify-center mt-[450px] ml-28 absolute z-20">
-          <img
+          <Image
             src="/img_s5_1.png"
+            alt="This is s5_1"
+            width={200}
+            height={200}
             className="w-full h-full object-cover rounded-full"
           />
         </div>
@@ -43,16 +54,28 @@ export function Section5() {
 
       {/* /*  Large Screen Layout */}
       <div className="hidden md:grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8 mt-12 sm:mt-16">
-        <img
+        <Image
           src="/img_s5_1.png"
+          alt="This is s5_1"
+          width={200}
+          height={200}
+          quality={100}
           className="rounded-[50px] sm:rounded-[80px] md:rounded-[110px] w-full aspect-square"
         />
-        <img
+        <Image
           src="/img_s5_2.png"
+          alt="This is s5_1"
+          width={200}
+          height={200}
+          quality={100}
           className="rounded-[50px] sm:rounded-[80px] md:rounded-[100px] w-full h-[300px] sm:h-[380px] md:h-[450px] mt-6 sm:mt-8 md:mt-12 aspect-square object-cover"
         />
-        <img
+        <Image
           src="/img_s5_3.png"
+          alt="This is s5_3"
+          width={200}
+          height={200}
+          quality={100}
           className="rounded-[50px] sm:rounded-[80px] md:rounded-[100px] w-full aspect-square"
         />
       </div>

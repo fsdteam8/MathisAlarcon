@@ -39,9 +39,12 @@ export function Section3() {
         </div>
 
         <div className="flex items-center justify-center gap-8 w-full -mt-10 p-2 md:mt-10">
-          <img
-            src="img_s3.png"
+          <Image
+            src="/img_s3.png"
             alt="Boss de Eye's Prod"
+            width={700}
+            height={300}
+            quality={100}
             className="w-[300px] sm:w-[350px] md:w-[714px] rounded-[80px] sm:rounded-[90px] md:rounded-[173px] img-shadow"
           />
         </div>
@@ -55,23 +58,28 @@ export function Section3() {
       </div>
 
       <div className="relative flex justify-center mt-15 mr-10 md:mt-4 md:absolute md:-top-15  md:mr-34 right-0 z-50">
-        <img
+        <Image
           src="/face_3.png"
           alt="Face 3"
+          height={300}
+          width={200}
+           quality={100}
           className="mx-auto h-[calc(80vh-5.2rem)] md:h-[calc(110vh-5.2rem)] w-[90%] sm:w-2/3 md:w-full"
         />
       </div>
 
-      <div className="absolute -mt-[430px] ml-30 block lg:hidden">
-        <img
+      <div className="absolute -mt-[600px] ml-30 block md:hidden">
+        <Image
           src="/Vector15.png"
           alt="Face 3"
-          className="w-[300px] h-[500px] sm:w-2/3 md:w-full"
+          width={300}
+          height={300}
+          className="w-[300px] h-[650px] sm:w-2/3 md:w-full"
         />
       </div>
 
       <div className="relative md:absolute top-80 mr-32 right-0 hidden lg:block">
-        <img src="/Vector7.png" alt="Face 3" className="mx-auto  " />
+        <Image width={500} height={800} src="/Vector7.png" alt="Face 3" className="mx-auto  " />
       </div>
     </div>
   );

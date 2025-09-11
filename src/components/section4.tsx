@@ -37,18 +37,27 @@ export function Section4() {
 
       {/* Grid Section */}
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-10 sm:gap-20 sm:px-8 md:px-16 mt-20 sm:mt-44">
-        <img
+        <Image
           src="/img_s4_1.png"
+          alt="This is Image s4"
+          width={300}
+          height={300}
           className="rounded-[100px] sm:rounded-[200px] w-3/4 sm:w-full mx-auto"
         />
 
-        <img
+        <Image
           src="/img_s4_2.png"
+          alt="This is Image s42"
+          height={200}
+          width={200}
           className="rounded-full w-3/4 sm:w-full mx-auto aspect-square my-auto"
         />
 
-        <img
+        <Image
           src="/img_s4_3.png"
+          alt="This is Image s4_3"
+          width={200}
+          height={200}
           className="rounded-[100px] w-[250px] h-[350px] sm:w-full mx-auto aspect-square my-auto block lg:hidden"
         />
 

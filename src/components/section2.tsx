@@ -5,11 +5,13 @@ export function Section2() {
     <div className="my-18">
       <div className="flex flex-col lg:flex-row relative">
         {/* Left Image */}
-        <div className="mt-40 z-30 lg:-mt-26 order-3 lg:order-1">
-          <img
+        <div className="mt-40 z-30 lg:mt-8 order-3 lg:order-1">
+          <Image
             src="/face_2.png"
             alt="Face 2"
-            className="mx-auto h-[400px] sm:h-[600px] md:h-[800px] lg:h-[1027px] w-full sm:w-2/3 md:w-3/4 lg:w-[1055px]"
+            height={500}
+            width={900}
+            className="w-full aspect-square object-cover"
           />
         </div>
 
@@ -68,13 +70,13 @@ export function Section2() {
             />
           </div>
           {/* Background Vector */}
-          <div className="absolute top-[580px] mr-8 ml-4  -mt-1 flex md:hidden">
+          <div className="absolute top-[580px] mr-8 ml-4 -mt-1 block md:hidden">
             <Image
               src="/Vector10.png"
               alt="Image Section 2"
               width={600}
               height={600}
-              className="w-[700px] h-[400px] md:w-[200px] md:h-[200px]"
+              className="w-[700px] h-[400px]"
             />
           </div>
         </div>
