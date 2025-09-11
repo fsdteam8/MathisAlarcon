@@ -29,7 +29,7 @@ export default function Section1() {
           priority
         />
       </div>
-      <div className="relative -z-50  justify-center -top-[525px] ml-15  flex md:hidden">
+      <div className="relative -z-50  justify-center -mt-[525px] ml-15  flex md:hidden">
         <Image
           src="/Vector3.png"
           alt="Fil rouge"

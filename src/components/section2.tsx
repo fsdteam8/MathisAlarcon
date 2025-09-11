@@ -16,7 +16,7 @@ export function Section2() {
         {/* Right Content */}
         <div className="flex flex-col items-center lg:items-start order-1 lg:order-2">
           {/* Heading */}
-          <h2 className="order-1 text-3xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold text-center lg:text-left lg:w-2/3 ml-0 lg:ml-40 leading-8 md:leading-12 lg:leading-[4rem] tracking-wide max-w-[80%]">
+          <h2 className="order-1 text-3xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold text-center lg:text-left lg:w-2/3 ml-0 lg:ml-36 leading-8 md:leading-12 lg:leading-[4rem] tracking-wide max-w-[80%]">
             L'expertise à l'origine de chaque sélection
           </h2>
 
@@ -68,13 +68,13 @@ export function Section2() {
             />
           </div>
           {/* Background Vector */}
-          <div className="absolute top-[580px] mr-8 ml-4 -mt-1 flex md:hidden">
+          <div className="absolute top-[580px] mr-8 ml-4  -mt-1 flex md:hidden">
             <Image
               src="/Vector10.png"
               alt="Image Section 2"
               width={600}
               height={600}
-              className="w-[700px] h-[400px]"
+              className="w-[700px] h-[400px] md:w-[200px] md:h-[200px]"
             />
           </div>
         </div>
