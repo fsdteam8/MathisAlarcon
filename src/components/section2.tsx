@@ -2,80 +2,112 @@ import Image from "next/image";
 
 export function Section2() {
   return (
-    <div className="my-18">
-      <div className="flex flex-col lg:flex-row relative">
+    <div className="2xl:mt-10 xl:mt-10 mt-14">
+      <div className="flex flex-col xl:flex-row relative">
         {/* Left Image */}
-        <div className="mt-40 z-30 lg:mt-8 order-3 lg:order-1">
+        <div
+          className="order-3 xl:order-1 mt-40 xl:mt-8 z-30 
+                     2xl:w-[1027px] 2xl:h-[1027px] 
+                     xl:w-[800px] xl:h-[800px] 
+                     md:w-[600px] md:h-[600px]"
+        >
           <Image
             src="/face_2.png"
             alt="Face 2"
-            height={500}
             width={900}
+            height={500}
             className="w-full aspect-square object-cover"
           />
         </div>
 
         {/* Right Content */}
-        <div className="flex flex-col items-center lg:items-start order-1 lg:order-2">
+        <div className="flex flex-col items-center xl:items-start order-1 xl:order-2">
           {/* Heading */}
-          <h2 className="order-1 text-3xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold text-center lg:text-left lg:w-2/3 ml-0 lg:ml-36 leading-8 md:leading-12 lg:leading-[4rem] tracking-wide max-w-[80%]">
-            L'expertise à l'origine de chaque sélection
+          <h2
+            className="order-1 font-semibold tracking-wide text-center xl:text-left 
+                       text-3xl sm:text-3xl md:text-4xl xl:text-4xl 2xl:text-5xl 
+                       leading-8 md:leading-12 xl:leading-[4rem] 
+                       max-w-[80%] xl:w-2/3 ml-0 xl:ml-36"
+          >
+            L&apos;expertise à l&apos;origine de chaque sélection
           </h2>
 
           {/* Text & Image Row */}
-          <div className="order-2 flex flex-col md:flex-row gap-6 sm:gap-10 mt-10 md:mt-20 lg:mt-44 items-center lg:items-start lg:-ml-40">
+          <div
+            className="order-2 flex flex-col md:flex-row gap-6 sm:gap-10 
+                       mt-10 md:mt-20 2xl:mt-44 items-center 
+                       2xl:items-start 2xl:-ml-40"
+          >
             <div>
-              <p className="text-outline text-lg sm:text-xl md:text-2xl lg:text-3xl text-left md:text-right max-w-[90%] md:max-w-[500px] mx-auto hidden md:flex">
+              {/* Desktop Text */}
+              <p
+                className="hidden md:flex text-outline text-lg sm:text-xl md:text-2xl 2xl:text-3xl 
+                           text-left md:text-right max-w-[90%] xl:max-w-[500px] mx-auto"
+              >
                 chaque modèle est choisi avec passion, pour ne proposer que des
                 pièces coup de cœur. des formes, des couleurs, des
                 personnalités. chaque pièce à quelque chose à vous dire.
               </p>
-              <p className="text-outline text-lg sm:text-xl md:text-2xl lg:text-3xl text-left md:text-right max-w-[100%] md:max-w-[500px] mx-auto flex md:hidden relative z-20 ">
+
+              {/* Mobile Text */}
+              <p
+                className="flex md:hidden relative z-20 text-outline text-lg sm:text-xl md:text-2xl 2xl:text-3xl 
+                           text-left md:text-right max-w-[100%] xl:max-w-[500px] mx-auto"
+              >
                 chaque modèle est choisi <br /> avec passion, <br /> pour ne
-                proposer que <br /> des pièces coup de cœur. <br /> des formes,
-                des couleurs, <br /> des personnalités. <br /> chaque pièce{" "}
-                <br /> à quelque chose <br /> à vous dire.
+                proposer que <br />
+                des pièces coup de cœur. <br /> des formes, des couleurs, <br />{" "}
+                des personnalités. <br />
+                chaque pièce <br /> à quelque chose <br /> à vous dire.
               </p>
             </div>
 
-            <div className="mt-40 ml-32 md:ml-0 md:mt-0 lg:-mt-20 z-10 absolute md:relative blur-b-lg">
+            {/* Left Image */}
+            <div
+              className="absolute md:relative z-10 blur-b-lg 
+                         mt-40 md:mt-0 xl:-mt-20 ml-32 md:ml-10 xl:ml-42 2xl:ml-0"
+            >
               <Image
                 src="/img_s2.png"
                 alt="Image Section 2"
-                width={400}
-                height={400}
-                className="w-[250px] sm:w-[300px] md:w-[350px] lg:w-[392px] h-[350px] sm:h-[450px] md:h-[520px] lg:h-[589px] rounded-full mx-auto"
+                width={392}
+                height={589}
+                className="mx-auto rounded-full 
+                           w-[250px] sm:w-[300px] md:w-[350px] xl:w-[350px] 2xl:w-[392px] 
+                           h-[350px] sm:h-[450px] md:h-[520px] xl:h-[400px] 2xl:h-[589px]"
               />
             </div>
           </div>
 
-          {/* Background Vector */}
-          <div className="absolute top-20 sm:top-28 md:top-32 lg:top-34 -ml-2 sm:-ml-5 md:-ml-7 hidden md:flex">
+          {/* Background Vectors */}
+          <div className="hidden md:flex absolute top-20 sm:top-28 md:top-32 xl:top-34 -ml-2 sm:-ml-5 md:-ml-7">
             <Image
-              src="/Vector4.png"
-              alt="Image Section 2"
-              width={400}
-              height={400}
-              className="w-[300px] sm:w-[600px] md:w-[750px] lg:w-[930px] h-[250px] sm:h-[450px] md:h-[600px] lg:h-[750px]"
+              src="/line2.svg"
+              alt="Vector"
+              width={930}
+              height={750}
+              className="w-[300px] sm:w-[600px] md:w-[750px] xl:h-[600px] 
+                         2xl:w-[930px] h-[250px] sm:h-[450px] md:h-[500px] 2xl:h-[750px]"
             />
           </div>
-          {/* Background Vector */}
-          <div className="absolute top-[390px] mr-64 flex md:hidden">
+
+          {/* Mobile vectors */}
+          <div className="flex md:hidden absolute top-[390px] mr-64">
             <Image
               src="/Vector6.png"
-              alt="Image Section 2"
-              width={400}
-              height={400}
+              alt="Vector"
+              width={100}
+              height={200}
               className="w-[100px] h-[200px]"
             />
           </div>
-          {/* Background Vector */}
-          <div className="absolute top-[590px] mr-8 ml-2 -mt-2 block md:hidden">
+
+          <div className="block md:hidden absolute top-[590px] mr-8 ml-2 -mt-2">
             <Image
               src="/Vector10.png"
-              alt="Image Section 2"
-              width={600}
-              height={600}
+              alt="Vector"
+              width={700}
+              height={400}
               className="w-[700px] h-[400px]"
             />
           </div>
