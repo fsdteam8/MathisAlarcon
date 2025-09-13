@@ -2,33 +2,33 @@ import Image from "next/image";
 
 export function Section4() {
   return (
-    <div className="w-full relative mt-20 px-4 sm:px-8 md:px-26">
-      {/* Vector9 */}
-      <div className="absolute ml-[100px] sm:ml-[400px] md:ml-[920px] hidden lg:block">
+    <div className="relative px-4 2xl:pt-50 pt-[115px] md:pt-[20px] sm:px-8 md:px-20">
+      {/* Vector 9 */}
+      <div className="absolute ml-[100px] hidden xl:block sm:ml-[400px] md:ml-[920px]">
         <Image
-          src={"/Vector9.png"}
-          alt="Background Section 4"
-          height={400}
+          src="/Vector9.png"
+          alt="Vector 9 Background"
           width={400}
+          height={400}
           quality={100}
-          className="w-[180px] h-[140px] sm:w-[350px] sm:h-[280px] md:w-[500px] md:h-[400px]"
+          className="h-[140px] w-[180px] sm:h-[280px] sm:w-[350px] md:h-[220px] 2xl:h-[400px] 2xl:w-[500px]"
         />
       </div>
 
-      {/* Vector13 */}
-      <div className="absolute ml-[40px] mt-20 sm:ml-[120px] sm:mt-44 md:ml-[275px] md:mt-72 hidden lg:block">
+      {/* Vector 13 */}
+      <div className="absolute mt-80 ml-[40px] hidden xl:block sm:ml-[120px] sm:mt-44 md:ml-[275px] md:mt-40 2xl:mt-72">
         <Image
-          src={"/Vector13.png"}
-          alt="Background Section 4"
-          height={400}
+          src="/Vector13.png"
+          alt="Vector 13 Background"
           width={400}
+          height={400}
           quality={100}
-          className="w-[220px] h-[160px] sm:w-[400px] sm:h-[300px] md:w-[650px] md:h-[500px]"
+          className="h-[160px] w-[220px] sm:h-[300px] sm:w-[400px] md:h-[500px] md:w-[650px]"
         />
       </div>
 
       {/* Top Text */}
-      <p className="text-outline text-sm sm:text-lg md:text-2xl lg:text-3xl w-full sm:w-[80%] md:w-[50%]">
+      <p className="text-outline w-full text-sm sm:w-[80%] sm:text-lg md:w-[50%] md:text-2xl 2xl:text-3xl">
         Depuis 20 ans, la boutique est un havre de création à
         Saint-Germain-en-Laye pour les amateurs de belles montures, de design
         pointu et d’artisanat exigeant. Un lieu où chaque paire raconte une
@@ -36,45 +36,48 @@ export function Section4() {
       </p>
 
       {/* Grid Section */}
-      <div className="grid grid-cols-1 sm:grid-cols-3 gap-10 sm:gap-20 sm:px-8 md:px-16 mt-20 sm:mt-44">
+      <div className="mt-20 grid grid-cols-1 gap-10 sm:mt-44 sm:grid-cols-3 sm:gap-20 sm:px-8 md:px-16">
+        {/* Image 1 */}
         <Image
           src="/img_s4_1.png"
-          alt="This is Image s4"
+          alt="Image Section 4 - 1"
           width={300}
           height={300}
-          className="rounded-[100px] sm:rounded-[200px] w-3/4 sm:w-full mx-auto"
+          className="mx-auto w-3/4 rounded-[100px] sm:w-full sm:rounded-[200px]"
         />
 
+        {/* Image 2 */}
         <Image
           src="/img_s4_2.png"
-          alt="This is Image s42"
-          height={200}
+          alt="Image Section 4 - 2"
           width={200}
-          className="rounded-full w-3/4 sm:w-full mx-auto aspect-square my-auto"
+          height={200}
+          className="mx-auto my-auto aspect-square w-3/4 rounded-full sm:w-full"
         />
 
+        {/* Image 3 (only mobile/laptop) */}
         <Image
           src="/img_s4_3.png"
-          alt="This is Image s4_3"
+          alt="Image Section 4 - 3"
           width={200}
           height={200}
-          className="rounded-[100px] w-[250px] h-[350px] sm:w-full mx-auto aspect-square my-auto block lg:hidden"
+          className="mx-auto my-auto block aspect-square w-[250px] h-[350px] sm:w-full rounded-[100px] xl:hidden"
         />
 
-        {/* Vector14 */}
-        <div className="absolute  md:ml-[760px] md:mt-[360px] hidden lg:block">
+        {/* Vector 14 */}
+        <div className="absolute hidden 2xl:block  2xl:ml-[760px] lg:mt-[360px]">
           <Image
-            src={"/Vector14.png"}
-            alt="Background Section 4"
-            height={400}
+            src="/Vector14.png"
+            alt="Vector 14 Background"
             width={400}
+            height={400}
             quality={100}
-            className="w-[120px] h-[180px] sm:w-[200px] sm:h-[280px] md:w-[250px] md:h-[350px]"
+            className="h-[180px] w-[120px] sm:h-[280px] sm:w-[200px] md:h-[350px] md:w-[250px]"
           />
         </div>
 
         {/* Bottom Text */}
-        <div className=" flex-col items-center justify-center text-center gap-4 px-4 sm:px-0 font-semibold w-full sm:w-[90%] md:w-[75%] mx-auto hidden lg:flex">
+        <div className="mx-auto hidden w-full flex-col items-center justify-center gap-4 px-4 text-center font-semibold sm:w-[90%] sm:px-0 md:w-[75%] xl:flex">
           Découvrez une sélection pointue de créateurs d’exception : Peter and
           May, Weareannu, Folk, Wissing, Emmanuelle Khanh, Pantos Paris, Cutler
           and Gross, Mascot, Masahiro Maruyama, Alhem, EYEVAN, Aude Hérouard,
