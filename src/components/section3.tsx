@@ -11,13 +11,13 @@ export function Section3() {
           height={900}
           width={900}
           quality={100}
-          className="w-[1600px] h-[1220px]"
+          className="w-[1600px] h-[1220px]  xxlll:-mt-16  xxlll:w-[1400px]"
         />
       </div>
 
       {/* Title + Address */}
       <div className="flex flex-col items-center justify-center md:justify-start gap-16 py-5 w-full md:w-1/2">
-        <div className="flex flex-col items-center justify-center gap-4 w-full mx-auto relative -mt-4">
+        <div className="flex flex-col items-center justify-center gap-4 w-full mx-auto relative -mt-4 xlll:-mt-10 xxlll:-mt-20">
           <h2 className="text-2xl md:text-5xl font-semibold text-center">
             Bienvenue chez Eyes Prod
           </h2>
@@ -30,14 +30,14 @@ export function Section3() {
         </div>
 
         {/* Decorative Line (large screen only) */}
-        <div className="absolute mt-30 hidden xl:block">
+        <div className="absolute mt-30 hidden xl:block ">
           <Image
             src={"/section3line2.svg"}
             alt="line"
             width={1104}
             height={680}
             quality={100}
-            className="h-[690px] w-[1104px] ml-68"
+            className="h-[690px] w-[1104px] ml-68 xlll:-mt-16 xxlll:-mt-16"
           />
         </div>
 
@@ -49,7 +49,7 @@ export function Section3() {
             width={700}
             height={400}
             quality={100}
-            className="w-[300px] sm:w-[350px] md:w-[714px] rounded-[80px] sm:rounded-[90px] 2xl:rounded-[173px] img-shadow"
+            className="w-[300px] sm:w-[350px] md:w-[714px] rounded-[80px] sm:rounded-[90px] 2xl:rounded-[173px] img-shadow xlll:-mt-24"
           />
         </div>
       </div>
@@ -63,8 +63,8 @@ export function Section3() {
       </div>
 
       {/* Illustration Face */}
-      <div className="relative flex justify-center mt-15 mr-2 md:mt-4 md:absolute md:top-0 2xl:w-[990px] 2xl:h-[990px] xl:w-[710px] xl:h-[690px] md:mr-4  right-0 z-50">
-        <Image src="/illustraction.png" alt="Face 3" height={990} width={990} className="sm:w-[80%] xl:w-full"/>
+      <div className="relative flex justify-center mt-15 mr-2 md:mt-4 md:absolute md:top-0 2xl:w-[990px] 2xl:h-[990px] xl:w-[710px] xl:h-[690px] md:mr-4  right-0 z-50 xxlll:-mt-32">
+        <Image src="/illustraction.png" alt="Face 3" height={990} width={990} className="sm:w-[80%] xl:w-full "/>
       </div>
 
       {/* Mobile Vector */}

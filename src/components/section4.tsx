@@ -4,31 +4,31 @@ export function Section4() {
   return (
     <div className="relative px-4 2xl:pt-50 pt-[115px] md:pt-[20px] sm:px-8 md:px-20">
       {/* Vector 9 */}
-      <div className="absolute ml-[100px] hidden xl:block sm:ml-[400px] md:ml-[920px]">
+      <div className="absolute ml-[100px] hidden xl:block sm:ml-[400px] md:ml-[920px]  xxlll:-mt-10 xlll:mr-48">
         <Image
           src="/Vector9.png"
           alt="Vector 9 Background"
           width={400}
           height={400}
           quality={100}
-          className="h-[140px] w-[180px] sm:h-[280px] sm:w-[350px] md:h-[220px] 2xl:h-[400px] 2xl:w-[500px]"
+          className="h-[140px] w-[180px] sm:h-[280px] sm:w-[350px] md:h-[220px] 2xl:h-[400px] 2xl:w-[500px] xlll:-ml-16 xlll:-mt-3 xxlll:ml-1 xxlll:mt-1"
         />
       </div>
 
       {/* Vector 13 */}
-      <div className="absolute mt-80 ml-[40px] hidden xl:block sm:ml-[120px] sm:mt-44 md:ml-[275px] md:mt-40 2xl:mt-72">
+      <div className="absolute mt-80 ml-[40px] hidden xl:block sm:ml-[120px] sm:mt-44 md:ml-[275px] md:mt-40 2xl:mt-72 xlll:ml-54">
         <Image
           src="/Vector13.png"
           alt="Vector 13 Background"
           width={400}
           height={400}
           quality={100}
-          className="h-[160px] w-[220px] sm:h-[300px] sm:w-[400px] md:h-[500px] md:w-[650px]"
+          className="h-[160px] w-[220px] sm:h-[300px] sm:w-[400px] md:h-[500px] md:w-[650px] xlll:-mt-4 xxlll:ml-15  xxlll:-mt-10"
         />
       </div>
 
       {/* Top Text */}
-      <p className="text-outline w-full text-sm sm:w-[80%] sm:mx-auto lg:mx-0 lg:text-start sm:text-center sm:text-lg md:w-[50%] md:text-2xl 2xl:text-3xl">
+      <p className="text-outline w-full text-sm sm:w-[80%] sm:mx-auto lg:mx-0 lg:text-start sm:text-center sm:text-lg md:w-[50%] md:text-2xl 2xl:text-3xl xxlll:-mt-6">
         Depuis 20 ans, la boutique est un havre de création à
         Saint-Germain-en-Laye pour les amateurs de belles montures, de design
         pointu et d’artisanat exigeant. Un lieu où chaque paire raconte une
@@ -36,7 +36,7 @@ export function Section4() {
       </p>
 
       {/* Grid Section */}
-      <div className="mt-20 grid grid-cols-1 gap-10 sm:mt-44 sm:grid-cols-3 sm:gap-20 sm:px-8 md:px-16">
+      <div className="mt-20 grid grid-cols-1 gap-10 sm:mt-44 sm:grid-cols-3 sm:gap-20 sm:px-8 md:px-16 ">
         {/* Image 1 */}
         <Image
           src="/img_s4_1.png"
@@ -61,7 +61,7 @@ export function Section4() {
           alt="Image Section 4 - 3"
           width={200}
           height={200}
-          className="mx-auto my-auto block aspect-square w-[250px] h-[350px] sm:w-full rounded-[100px] xl:hidden"
+          className="mx-auto my-auto block aspect-square w-[250px] h-[350px] sm:w-full rounded-[100px] xl:hidden "
         />
 
         {/* Vector 14 */}

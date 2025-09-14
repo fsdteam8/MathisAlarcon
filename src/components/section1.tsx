@@ -30,14 +30,14 @@ export default function Section1() {
       {/* Desktop Vector */}
       <div className="relative hidden md:flex justify-center 
                       md:absolute md:left-1/3 md:ml-30 
-                      lg:top-[365px] 2xl:top-[465px] mt-6 2xl:mt-10 -top-72">
+                      lg:top-[365px] 2xl:top-[465px] mt-6 2xl:mt-10 -top-72 xlll:mt-20">
         <Image
           src="/Line 1.svg"
           alt="Fil rouge"
           width={400}
           height={800}
           priority
-          className="h-auto w-[150px] sm:w-[250px] md:w-[400px]"
+          className="h-auto w-[150px] sm:w-[250px] md:w-[400px] lg:w-[70%] xlll:w-[100px]"
         />
       </div>
 
