@@ -65,7 +65,7 @@ export function Section4() {
         />
 
         {/* Vector 14 */}
-        <div className="absolute hidden 2xl:block  2xl:ml-[760px] lg:mt-[360px]">
+        <div className="absolute hidden 2xl:block  2xl:ml-[795px] lg:mt-[360px]">
           <Image
             src="/Vector14.png"
             alt="Vector 14 Background"

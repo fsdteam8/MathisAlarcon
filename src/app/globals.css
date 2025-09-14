@@ -10,6 +10,7 @@
 	--color-foreground: var(--foreground);
 	--breakpoint-md: 1280px;
 	--breakpoint-sm: 900px;
+	--breakpoint-bb: 768px;
 }
 
 /* @media (prefers-color-scheme: dark) {

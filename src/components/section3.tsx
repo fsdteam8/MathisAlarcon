@@ -4,20 +4,20 @@ export function Section3() {
   return (
     <div className="w-full relative mt-8 md:mt-0">
       {/* Background Vector */}
-      <div className="absolute left-0 -top-[1200px] ml-[350px] -z-10 hidden md:block">
+      <div className="absolute left-0 -top-[1250px] ml-[350px] -z-10 hidden md:block">
         <Image
           src={"/Vector5.png"}
           alt="Background Section 3"
           height={900}
           width={900}
           quality={100}
-          className="w-[1600px] h-[1200px]"
+          className="w-[1600px] h-[1220px]"
         />
       </div>
 
       {/* Title + Address */}
       <div className="flex flex-col items-center justify-center md:justify-start gap-16 py-5 w-full md:w-1/2">
-        <div className="flex flex-col items-center justify-center gap-4 w-full mx-auto relative">
+        <div className="flex flex-col items-center justify-center gap-4 w-full mx-auto relative -mt-4">
           <h2 className="text-2xl md:text-5xl font-semibold text-center">
             Bienvenue chez Eyes Prod
           </h2>
@@ -30,14 +30,14 @@ export function Section3() {
         </div>
 
         {/* Decorative Line (large screen only) */}
-        <div className="absolute mt-25 hidden xl:block">
+        <div className="absolute mt-30 hidden lg:block">
           <Image
             src={"/section3line2.svg"}
             alt="line"
             width={1104}
             height={680}
             quality={100}
-            className="h-[690px] w-[1104px] ml-60"
+            className="h-[690px] w-[1104px] ml-68"
           />
         </div>
 
@@ -68,21 +68,21 @@ export function Section3() {
       </div>
 
       {/* Mobile Vector */}
-      <div className="absolute -mt-[450px] lg:-mt-[1000px] ml-30 lg:ml-52 block md:hidden">
+      <div className="absolute md:hidden -mt-[450px] bb:-mt-[700px] lg:-mt-[1000px] ml-30 bb:ml-[350px] lg:ml-52 block">
         <Image
           src="/Vector15.png"
           alt="Face 3"
           width={500}
           height={500}
-          className="w-[300px] h-[550px] lg:w-[480px] lg:h-[1100px] sm:w-2/3 md:w-full"
+          className="w-[300px] h-[550px] bb:h-[800px] lg:w-[480px] lg:h-[1100px] sm:w-2/3 md:w-full"
         />
       </div>
 
       {/* Extra Vector (xl only) */}
-      <div className="relative md:absolute  2xl:w-[500px] xl:w-[400px] xl:h-[700px] 2xl:h-[800px] top-80 mr-32 right-0 hidden xl:block">
+      <div className="relative md:absolute  2xl:w-[500px] xl:w-[400px] xl:h-[700px] 2xl:h-[800px] top-80 mr-10 right-0 hidden xl:block">
         <Image
-          width={500}
-          height={800}
+          width={600}
+          height={700}
           src="/Vector7.png"
           alt="Face 3"
           className="mx-auto"

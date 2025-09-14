@@ -6,7 +6,7 @@ export function Section2() {
       <div className="flex flex-col xl:flex-row relative">
         {/* Left Image */}
         <div
-          className="order-3 xl:order-1 mt-40 xl:mt-8 z-30 
+          className="order-3 xl:order-1 mt-68 xl:mt-8 z-30 
                      2xl:w-[1027px] 2xl:h-[1027px] 
                      xl:w-[800px] xl:h-[800px] 
                      md:w-[600px] md:h-[600px]"
@@ -65,7 +65,7 @@ export function Section2() {
             {/* Left Image */}
             <div
               className="absolute md:relative z-10 blur-b-lg 
-                         mt-40 md:mt-0 xl:-mt-20 ml-32 md:ml-10 xl:ml-42 2xl:ml-0"
+                         mt-56 md:mt-0 xl:-mt-20 ml-32 md:ml-10 xl:ml-42 2xl:ml-0"
             >
               <Image
                 src="/img_s2.png"
@@ -92,23 +92,23 @@ export function Section2() {
           </div>
 
           {/* Mobile vectors */}
-          <div className="flex md:hidden absolute top-[390px] mr-64">
+          <div className="absolute md:hidden top-[435px] bb:top-[400px] md:top-0 mr-62">
             <Image
               src="/Vector6.png"
               alt="Vector"
               width={100}
               height={200}
-              className="w-[100px] h-[200px]"
+              className="w-[100px] h-[250px]"
             />
           </div>
 
-          <div className="block md:hidden absolute top-[590px] mr-8 ml-2 -mt-2">
+          <div className="mt-22 ml-5 absolute top-[590px] bb:top-[555px] bb:left-[165px] mr-8 lg:hidden">
             <Image
               src="/Vector10.png"
               alt="Vector"
               width={700}
               height={400}
-              className="w-[700px] h-[400px]"
+              className="w-[700px] h-[400px] bb:h-[500px]"
             />
           </div>
         </div>
