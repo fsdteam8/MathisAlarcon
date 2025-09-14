@@ -2,21 +2,21 @@ import Image from "next/image";
 
 export function Section2() {
   return (
-    <div className="2xl:mt-10 xl:mt-10 mt-14">
+    <div className="2xl:mt-10 xl:mt-10 my-16">
       <div className="flex flex-col xl:flex-row relative">
         {/* Left Image */}
         <div
-          className="order-3 xl:order-1 mt-68 xl:mt-8 z-30 
+          className="order-3 xl:order-1 mt-68 bb:mt-80 xl:mt-8 z-30 
                      2xl:w-[1027px] 2xl:h-[1027px] 
                      xl:w-[800px] xl:h-[800px] 
-                     md:w-[600px] md:h-[600px]"
+                     md:w-[600px] md:h-[600px] sm:mt-[420px]"
         >
           <Image
             src="/face_2.png"
             alt="Face 2"
             width={900}
             height={500}
-            className="w-full aspect-square object-cover"
+            className="lg:w-full bb:w-[80%] mm:w-[80%] bb:mx-auto aspect-square object-cover"
           />
         </div>
 
@@ -41,8 +41,8 @@ export function Section2() {
             <div>
               {/* Desktop Text */}
               <p
-                className="hidden md:flex text-outline text-lg sm:text-xl md:text-2xl 2xl:text-3xl 
-                           text-left md:text-right max-w-[90%] xl:max-w-[500px] mx-auto"
+                className="hidden bb:flex text-outline text-lg sm:text-xl md:text-2xl 2xl:text-3xl 
+                           text-left md:text-right max-w-[90%] xl:max-w-[500px] mx-auto bb:text-center"
               >
                 chaque modèle est choisi avec passion, pour ne proposer que des
                 pièces coup de cœur. des formes, des couleurs, des
@@ -51,7 +51,7 @@ export function Section2() {
 
               {/* Mobile Text */}
               <p
-                className="flex md:hidden relative z-20 text-outline text-lg sm:text-xl md:text-2xl 2xl:text-3xl 
+                className="flex bb:hidden relative z-20 text-outline text-lg sm:text-xl md:text-2xl 2xl:text-3xl 
                            text-left md:text-right max-w-[100%] xl:max-w-[500px] mx-auto"
               >
                 chaque modèle est choisi <br /> avec passion, <br /> pour ne
@@ -65,7 +65,7 @@ export function Section2() {
             {/* Left Image */}
             <div
               className="absolute md:relative z-10 blur-b-lg 
-                         mt-56 md:mt-0 xl:-mt-20 ml-32 md:ml-10 xl:ml-42 2xl:ml-0"
+                         mt-56 bb:mt-32 xl:-mt-20 ml-32 md:ml-10 xl:ml-42 2xl:ml-0 sm:mt-36"
             >
               <Image
                 src="/img_s2.png"
@@ -92,7 +92,7 @@ export function Section2() {
           </div>
 
           {/* Mobile vectors */}
-          <div className="absolute md:hidden top-[435px] bb:top-[400px] md:top-0 mr-62">
+          <div className="absolute md:hidden top-[435px] bb:top-[400px] md:top-0 mr-62 sm:top-[450px] sm:mr-70">
             <Image
               src="/Vector6.png"
               alt="Vector"
@@ -102,13 +102,13 @@ export function Section2() {
             />
           </div>
 
-          <div className="mt-22 ml-5 absolute top-[590px] bb:top-[555px] bb:left-[165px] mr-8 lg:hidden">
+          <div className="mt-22 ml-5 absolute top-[590px] bb:top-[555px] bb:left-[165px] sm:left-[235px] lg:left-[280px] sm:top-[603px] mr-8 xl:hidden">
             <Image
               src="/Vector10.png"
               alt="Vector"
               width={700}
               height={400}
-              className="w-[700px] h-[400px] bb:h-[500px]"
+              className="w-[700px] bb:w-[450px] sm:w-[550px] h-[400px] bb:h-[550px] sm:h-[700px]"
             />
           </div>
         </div>

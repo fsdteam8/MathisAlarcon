@@ -28,7 +28,7 @@ export function Section4() {
       </div>
 
       {/* Top Text */}
-      <p className="text-outline w-full text-sm sm:w-[80%] sm:text-lg md:w-[50%] md:text-2xl 2xl:text-3xl">
+      <p className="text-outline w-full text-sm sm:w-[80%] sm:mx-auto lg:mx-0 lg:text-start sm:text-center sm:text-lg md:w-[50%] md:text-2xl 2xl:text-3xl">
         Depuis 20 ans, la boutique est un havre de création à
         Saint-Germain-en-Laye pour les amateurs de belles montures, de design
         pointu et d’artisanat exigeant. Un lieu où chaque paire raconte une

@@ -8,7 +8,7 @@ export function Section5() {
         EYES PROD <span className="title-outline">vintage</span>
       </h1>
       {/* Description */}
-      <p className="text-left text-outline text-sm sm:text-lg md:text-2xl lg:text-3xl mt-6 sm:mt-8 w-full sm:w-[90%] md:w-[80%] mx-auto">
+      <p className="text-left text-outline text-sm sm:text-lg md:text-2xl lg:text-3xl mt-6 sm:mt-8 w-full sm:w-[90%] md:w-[80%] mx-auto bb:text-center">
         À l’étage de la boutique se cache un univers à part : une collection
         100% vintage, composée de montures originales jamais portées,
         soigneusement chinées au fil des années. Chaque pièce est unique,

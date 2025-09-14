@@ -49,7 +49,7 @@ export default function Section1() {
           width={400}
           height={800}
           priority
-          className="w-[220px] h-[485px]"
+          className="w-[220px] mm:w-[300px] h-[485px]"
         />
       </div>
     </div>

@@ -30,7 +30,7 @@ export function Section3() {
         </div>
 
         {/* Decorative Line (large screen only) */}
-        <div className="absolute mt-30 hidden lg:block">
+        <div className="absolute mt-30 hidden xl:block">
           <Image
             src={"/section3line2.svg"}
             alt="line"
@@ -64,17 +64,17 @@ export function Section3() {
 
       {/* Illustration Face */}
       <div className="relative flex justify-center mt-15 mr-2 md:mt-4 md:absolute md:top-0 2xl:w-[990px] 2xl:h-[990px] xl:w-[710px] xl:h-[690px] md:mr-4  right-0 z-50">
-        <Image src="/illustraction.png" alt="Face 3" height={990} width={990} />
+        <Image src="/illustraction.png" alt="Face 3" height={990} width={990} className="sm:w-[80%] xl:w-full"/>
       </div>
 
       {/* Mobile Vector */}
-      <div className="absolute md:hidden -mt-[450px] bb:-mt-[700px] lg:-mt-[1000px] ml-30 bb:ml-[350px] lg:ml-52 block">
+      <div className="absolute md:hidden -mt-[450px] bb:-mt-[700px] sm:-mt-[700px] xl:-mt-[1000px] ml-30 bb:ml-[350px] sm:ml-[500px] xl:ml-52 block">
         <Image
           src="/Vector15.png"
           alt="Face 3"
           width={500}
           height={500}
-          className="w-[300px] h-[550px] bb:h-[800px] lg:w-[480px] lg:h-[1100px] sm:w-2/3 md:w-full"
+          className="w-[300px] h-[550px] bb:h-[800px] sm:h-[750px] xl:w-[480px] xl:h-[1100px] sm:w-2/3 md:w-full"
         />
       </div>
 
